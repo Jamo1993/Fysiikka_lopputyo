@@ -7,6 +7,7 @@ from streamlit_folium import st_folium
 from scipy.signal import butter, filtfilt
 from math import radians, cos, sin, asin, sqrt
 
+url = "https://raw.githubusercontent.com/Jamo1993/Fysiikka_lopputyo/refs/heads/main/app.py"
 st.title("Spurttivartti")
 
 def butter_lowpass_filter(data, cutoff, nyq, order):
