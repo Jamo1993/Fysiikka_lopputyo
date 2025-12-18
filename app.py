@@ -10,8 +10,8 @@ from math import radians, cos, sin, asin, sqrt
 ACC_URL = "https://raw.githubusercontent.com/Jamo1993/Fysiikka_lopputyo/main/Acceleration2.csv"
 LOC_URL = "https://raw.githubusercontent.com/Jamo1993/Fysiikka_lopputyo/main/Location2.csv"
 
-df_acc = pd.read_csv(ACC_URL)
-df_loc = pd.read_csv(LOC_URL)
+#df_acc = pd.read_csv(ACC_URL)
+#df_loc = pd.read_csv(LOC_URL)
 
 st.title("Spurttivartti")
 
