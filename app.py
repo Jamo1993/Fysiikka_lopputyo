@@ -31,8 +31,8 @@ def haversine(lon1, lat1, lon2, lat2):
     return c * r
 
 
-df_acc = pd.read_csv("Acceleration2.csv")
-df_loc = pd.read_csv("Location2.csv")
+#df_acc = pd.read_csv("Acceleration2.csv")
+#df_loc = pd.read_csv("Location2.csv")
 
 df_loc = df_loc[df_loc["Time (s)"] > 5].reset_index(drop=True)
 
